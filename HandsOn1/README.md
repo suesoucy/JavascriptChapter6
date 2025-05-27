@@ -4,9 +4,9 @@ In this project you will program the actions of a sign up form in which users mu
 3. Go to the project06-01.js file in your code editor. Below the comment section declare the following variables: submitButton referencing the element with the id “submitButton”, pwd referencing the element with the id “pwd”, and pwd2 referencing the element with the id “pwd2”. 
 4. Create an event listener for the click event occurring with the submitButton that runs an anonymous function.
 5. Within the anonymous function add the following if else structure:
-  - If the pwd field fails the pattern match, display the validation message, “Your password must be at least 8 characters with at least one letter and one number”. 
-  - Else if the value of the pwd field does not equal the value of the pwd2 display the validation message “Your passwords must match”. 
-  - Otherwise, set the validation message to an empty text string. 
+      - If the pwd field fails the pattern match, display the validation message, “Your password must be at least 8 characters with at least one letter and one number”. 
+      - Else if the value of the pwd field does not equal the value of the pwd2 display the validation message “Your passwords must match”. 
+      - Otherwise, set the validation message to an empty text string. 
 6. Save your changes to the file and then open project06-01.html in your web browser. 
 7. Verify that you cannot submit the form if your password is less than eight characters long and does not include at least one number and one letter. 
 8. Verify that you cannot submit the form if the two passwords do not match. 
